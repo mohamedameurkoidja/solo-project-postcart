@@ -1,0 +1,61 @@
+body {
+  background-image: url(./img/seamless-pattern-with-city-map_600765-1672.avif);
+}
+.logo {
+  height: 100px;
+  width: 100px;
+}
+.titel {
+  text-align: center;
+  color: #e21b22;
+  letter-spacing: 20px;
+  display: grid;
+  align-items: center;
+  column-gap: 7px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+svg .center:hover {
+  fill: rgb(20, 20, 22);
+}
+svg .blou:hover {
+  fill: rgb(36, 36, 174);
+}
+svg .yalow:hover {
+  fill: rgba(255, 153, 0, 0.667);
+}
+svg .green:hover {
+  fill: rgba(64, 255, 0, 0.667);
+}
+.imgs {
+  right: 5000%;
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
+}
+
+.abc {
+  color: #134bce;
+  display: grid;
+  align-items: center;
+  column-gap: 5px;
+}
+.continer {
+  display: flex;
+  justify-content: space-between;
+}
+.main1 {
+  background-color: #919291;
+}
+.concl {
+  text-align: center;
+  color: #1c1617;
+  display: grid;
+  align-items: center;
+  left: 100cm;
+  column-gap: 150px;
+  height: 50px;
+  font-size: 25px;
+  font-weight: bold;
+}
